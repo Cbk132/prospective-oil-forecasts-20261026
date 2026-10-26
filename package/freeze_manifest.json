@@ -1,0 +1,92 @@
+{
+  "frozen_utc": "2026-10-26T01:51:38.299955+00:00",
+  "forecasts_generated_from_utc": "2026-10-26T01:51:19.617874+00:00",
+  "statement": "Forecasts generated from snapshots containing no target month; frozen before any target is released. Not publicly deposited.",
+  "summary": {
+    "Norway": {
+      "latest_released_month": "2026-08",
+      "panel_units": 135,
+      "units_reporting_latest_month": 107,
+      "L0_forecasts": 180,
+      "L0_ids": 60,
+      "L2_forecasts": 180,
+      "L2_ids": 60,
+      "L0_targets": [
+        "2026-09",
+        "2026-11",
+        "2027-02"
+      ],
+      "L2_targets": [
+        "2026-11",
+        "2027-01",
+        "2027-04"
+      ]
+    },
+    "UK": {
+      "latest_released_month": "2026-07",
+      "panel_units": 345,
+      "units_reporting_latest_month": 172,
+      "L0_forecasts": 342,
+      "L0_ids": 114,
+      "L2_forecasts": 342,
+      "L2_ids": 114,
+      "L0_targets": [
+        "2026-08",
+        "2026-10",
+        "2027-01"
+      ],
+      "L2_targets": [
+        "2026-10",
+        "2026-12",
+        "2027-03"
+      ]
+    }
+  },
+  "forecasts_sha256": "4dfcd9d64974150048dd8f152b5304c2cf77819065006a58658c3b4722725e46",
+  "forecast_rows": 1044,
+  "files": {
+    "calibration_norway_L0.csv": "b6464d53cce145a46d71bca98e056e916e1446a5f0fa8fbf796e0d61f7a3baad",
+    "calibration_uk_L0.csv": "3b9aa435806c8f5a0edb894e05f3cca5fb7c6af8653b0da272a19766e107c2ef",
+    "fit_audit.csv": "53ba19e00bfe1c03db5f994c8119e0e1c61bc9321117f4f81752d93b4b3626d9",
+    "forecasts_frozen.csv": "4dfcd9d64974150048dd8f152b5304c2cf77819065006a58658c3b4722725e46",
+    "panel_norway_to_202608.csv": "00e959170691a6cfd62a2d8f797b92b99467e89b1796def26801979c73617c5b",
+    "panel_uk_to_202607.csv": "24924708feae9303757838f8e9c1c968542b43688621a8d013e1d5d83775e860"
+  },
+  "inputs": {
+    "data\\current_no_uk_20261026\\sodir_field_production_gross_monthly.csv": "ef4e0b579e1a0bd729140b21e8b472eb59240c01e32f890f77735c98da3b6bc8",
+    "data\\current_no_uk_20261026\\nsta_pprs_P_OTL_T_all_months.csv": "eb5249ca52373ad3aa9c97fc0292ec6e154aa5474714692d293cc6bf9a5f1b6f",
+    "data\\current_no_uk_20261026\\acquisition_manifest.json": "76462e7bce92711b9e4a058fb1182786403099512df7d6f0172ea32eb7095be7",
+    "..\\适用边界补强_20261018\\external_data\\excluded_shared_units.csv": "b88305814ccd436a57e5b62d6b76fcda2eb999fc569150f9dae94b5b2d76ca4a"
+  },
+  "code": {
+    "freeze_prospective.py": "4caa6b67f9e9398abe897166b15a45252a392ab49b435fd138b924a954099c69",
+    "run_external.py": "bd18fdf3547286f750bb85a197d8b48daca40a4805dde69cdc8197a7370d1c0b",
+    "run_delay.py": "559174b3508e6e8ed66e3aa623642caa697ce883de9df52765e02a3203544b9d",
+    "regime_policy.py": "a03b471c4bd5fb3c61c97be8b7c7f084c23dfe45271d0b25286af18fb766faf8",
+    "frozen_policy.json": "40556054b9cb65f31160bb50a3798505e087a3124aac71dca84e056597a913ca"
+  },
+  "estimator": {
+    "loss": "squared_error",
+    "learning_rate": 0.05,
+    "max_iter": 150,
+    "max_leaf_nodes": 7,
+    "min_samples_leaf": 20,
+    "l2_regularization": 10,
+    "early_stopping": false,
+    "random_state": 20261013
+  },
+  "features": [
+    "log_oil_lag0",
+    "log_oil_lag1",
+    "log_oil_lag2",
+    "log_oil_lag3",
+    "log_oil_lag6",
+    "log_oil_lag12",
+    "log_oil_change1",
+    "log_oil_change3",
+    "origin_days",
+    "target_days",
+    "sin_target_month",
+    "cos_target_month"
+  ]
+}

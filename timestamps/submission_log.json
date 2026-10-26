@@ -1,0 +1,27 @@
+{
+  "file": "SHA256SUMS.txt",
+  "sha256": "65e31239f2da0814bfdd13f9be383a4f44f5ec92fd4070d5954803c10e68aa69",
+  "submitted_utc": "2026-10-26T06:10:29.390194+00:00",
+  "calendars": {
+    "https://a.pool.opentimestamps.org": {
+      "status": "ok",
+      "response_bytes": 207,
+      "proof": "timestamps/a_pool_opentimestamps_org.ots"
+    },
+    "https://b.pool.opentimestamps.org": {
+      "status": "ok",
+      "response_bytes": 275,
+      "proof": "timestamps/b_pool_opentimestamps_org.ots"
+    },
+    "https://a.pool.eternitywall.com": {
+      "status": "ok",
+      "response_bytes": 226,
+      "proof": "timestamps/a_pool_eternitywall_com.ots"
+    },
+    "https://ots.btc.catallaxy.com": {
+      "status": "ok",
+      "response_bytes": 220,
+      "proof": "timestamps/ots_btc_catallaxy_com.ots"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "rows": 3973,
+  "both": 3973,
+  "max_abs": {
+    "daily_last": 2.9103830456733704e-11,
+    "HGB_history": 5.820766091346741e-11,
+    "fixed_average": 2.9103830456733704e-11,
+    "calibrated_persistence": 2.9103830456733704e-11,
+    "daily_mean3": 2.9103830456733704e-11,
+    "daily_drift3": 5.820766091346741e-11,
+    "y_true": 0.0
+  },
+  "passed": true
+}

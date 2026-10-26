@@ -1,0 +1,33 @@
+{
+  "sha256": "65e31239f2da0814bfdd13f9be383a4f44f5ec92fd4070d5954803c10e68aa69",
+  "proofs": {
+    "a_pool_eternitywall_com.ots": [
+      {
+        "kind": "pending",
+        "commitment": "6adeeedcea473264fcf43bc8a18175d25804730fefcabaa005a90f606af34c690ff6fe54acc2503c976ba826",
+        "detail": "https://finney.calendar.eternitywall.com"
+      }
+    ],
+    "a_pool_opentimestamps_org.ots": [
+      {
+        "kind": "pending",
+        "commitment": "6adeeed676c0a37c072ed7300df46d83997170887e76efe668cd683b39344dbc0a7d206b90bc804be7d66d88",
+        "detail": "https://alice.btc.calendar.opentimestamps.org"
+      }
+    ],
+    "b_pool_opentimestamps_org.ots": [
+      {
+        "kind": "pending",
+        "commitment": "6adeeed8de1dbb1fbca65c9099371bbe81d1ec8e299025ea3dff0581642f58721daf4aa8715c60c6d9ea433f",
+        "detail": "https://bob.btc.calendar.opentimestamps.org"
+      }
+    ],
+    "ots_btc_catallaxy_com.ots": [
+      {
+        "kind": "pending",
+        "commitment": "6adeeedfc7bbed7aa99e119b6c03f8545077e074f2997416c23b70e0c0bee914604bfa248b26587c6cf1b099",
+        "detail": "https://btc.calendar.catallaxy.com"
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "recorded_utc": "2026-10-26T01:51:49.690166+00:00",
+  "protocol_prospective_md": "a6de491996584cbe0b1d90e3c54891e6617748b495c045b34362d63e5898ff72",
+  "freeze_prospective_py": "4caa6b67f9e9398abe897166b15a45252a392ab49b435fd138b924a954099c69",
+  "freeze_manifest_json": "a56e5dc7b93a4d1866a7a4f8317b7975a6e7cf98d405986a7294b42d99419319",
+  "forecasts_frozen_csv": "4dfcd9d64974150048dd8f152b5304c2cf77819065006a58658c3b4722725e46",
+  "code_equivalence_check": "81eaf26aa438399c4c757de1ed643ec8182f03b05bfc462eb6decdb88b7b16e7",
+  "public_deposit": "NOT DONE - requires author approval (OSF/Zenodo/GitHub or trusted timestamp)"
+}
