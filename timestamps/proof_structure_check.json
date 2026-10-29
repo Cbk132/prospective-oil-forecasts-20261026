@@ -3,12 +3,26 @@
   "proofs": {
     "a_pool_eternitywall_com.ots": [
       {
+        "kind": "bitcoin",
+        "commitment": "879b9a6434463a669b78e84861b8177e596593a245883f9911e7cd7ac683b386",
+        "detail": 973213
+      }
+    ],
+    "a_pool_eternitywall_com.pending.ots": [
+      {
         "kind": "pending",
         "commitment": "6adeeedcea473264fcf43bc8a18175d25804730fefcabaa005a90f606af34c690ff6fe54acc2503c976ba826",
         "detail": "https://finney.calendar.eternitywall.com"
       }
     ],
     "a_pool_opentimestamps_org.ots": [
+      {
+        "kind": "bitcoin",
+        "commitment": "d3242e73538b0768a55d8ecc4260ccffb8d06f242176011ad9bf97b73a4e4479",
+        "detail": 973200
+      }
+    ],
+    "a_pool_opentimestamps_org.pending.ots": [
       {
         "kind": "pending",
         "commitment": "6adeeed676c0a37c072ed7300df46d83997170887e76efe668cd683b39344dbc0a7d206b90bc804be7d66d88",
@@ -17,12 +31,26 @@
     ],
     "b_pool_opentimestamps_org.ots": [
       {
+        "kind": "bitcoin",
+        "commitment": "d3242e73538b0768a55d8ecc4260ccffb8d06f242176011ad9bf97b73a4e4479",
+        "detail": 973200
+      }
+    ],
+    "b_pool_opentimestamps_org.pending.ots": [
+      {
         "kind": "pending",
         "commitment": "6adeeed8de1dbb1fbca65c9099371bbe81d1ec8e299025ea3dff0581642f58721daf4aa8715c60c6d9ea433f",
         "detail": "https://bob.btc.calendar.opentimestamps.org"
       }
     ],
     "ots_btc_catallaxy_com.ots": [
+      {
+        "kind": "bitcoin",
+        "commitment": "c698297e74eee735e88345527ec2c74201d9a338b0e9761203e08544939b3c9e",
+        "detail": 973255
+      }
+    ],
+    "ots_btc_catallaxy_com.pending.ots": [
       {
         "kind": "pending",
         "commitment": "6adeeedfc7bbed7aa99e119b6c03f8545077e074f2997416c23b70e0c0bee914604bfa248b26587c6cf1b099",

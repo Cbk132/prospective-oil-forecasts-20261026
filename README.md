@@ -11,7 +11,8 @@ This archive holds 1,044 forecasts of monthly field oil production for Norway (N
 
 - `SHA256SUMS.txt` lists the SHA-256 of every file in `package/`. Its own SHA-256 is `65e31239f2da0814bfdd13f9be383a4f44f5ec92fd4070d5954803c10e68aa69`.
 - At 2026-10-26T06:10:29Z, that digest was submitted to four independent public OpenTimestamps calendars: alice and bob (opentimestamps.org), Eternity Wall and Catallaxy. Their detached proofs are in `timestamps/*.ots`. Only the digest was sent.
-- After the calendars anchor the digest in Bitcoin, run `python ots_upgrade.py` and then `python ots_check.py`. Alternatively use the official client: `ots upgrade timestamps/<file>.ots`, then `ots verify -f SHA256SUMS.txt timestamps/<file>.ots`. Once upgraded, the proof shows that this exact file set existed no later than the time of the Bitcoin block containing it.
+- **Anchored in Bitcoin (upgraded 2026-10-29).** All four proofs now carry Bitcoin attestations: alice and bob in block 973200 (2026-10-26T06:22:57Z), Eternity Wall in block 973213 (2026-10-26T08:06:14Z) and Catallaxy in block 973255 (2026-10-26T16:21:54Z). Each commitment equals that block's merkle root (`timestamps/bitcoin_verification.json`, checked with `verify_bitcoin.py` against the Blockstream API). The package therefore existed no later than 2026-10-26T06:22:57Z. The original pending proofs are kept as `timestamps/*.pending.ots`.
+- To re-check independently, use the official client: `ots verify -f SHA256SUMS.txt timestamps/<file>.ots` (needs a Bitcoin node or explorer access), or run `python ots_check.py` and `python verify_bitcoin.py`.
 
 To verify: recompute `sha256sum package/*` and compare it with `SHA256SUMS.txt`; recompute the SHA-256 of `SHA256SUMS.txt`; then verify any one `.ots` proof against that digest.
 

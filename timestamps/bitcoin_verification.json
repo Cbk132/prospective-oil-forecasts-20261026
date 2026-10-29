@@ -1,0 +1,39 @@
+{
+  "sha256": "65e31239f2da0814bfdd13f9be383a4f44f5ec92fd4070d5954803c10e68aa69",
+  "source": "https://blockstream.info/api",
+  "checked_utc": "2026-10-29T01:40:33.722210+00:00",
+  "proofs": {
+    "a_pool_eternitywall_com.ots": {
+      "height": 973213,
+      "block_hash": "000000000000000000007939b0c8513b0085dba6945f877c25da681ae64e5276",
+      "block_time_utc": "2026-10-26T08:06:14+00:00",
+      "commitment": "879b9a6434463a669b78e84861b8177e596593a245883f9911e7cd7ac683b386",
+      "merkle_root_internal": "879b9a6434463a669b78e84861b8177e596593a245883f9911e7cd7ac683b386",
+      "verified": true
+    },
+    "a_pool_opentimestamps_org.ots": {
+      "height": 973200,
+      "block_hash": "000000000000000000012c306b73c62bf73d3cba0923ac3af5ce9717a8ff0e7f",
+      "block_time_utc": "2026-10-26T06:22:57+00:00",
+      "commitment": "d3242e73538b0768a55d8ecc4260ccffb8d06f242176011ad9bf97b73a4e4479",
+      "merkle_root_internal": "d3242e73538b0768a55d8ecc4260ccffb8d06f242176011ad9bf97b73a4e4479",
+      "verified": true
+    },
+    "b_pool_opentimestamps_org.ots": {
+      "height": 973200,
+      "block_hash": "000000000000000000012c306b73c62bf73d3cba0923ac3af5ce9717a8ff0e7f",
+      "block_time_utc": "2026-10-26T06:22:57+00:00",
+      "commitment": "d3242e73538b0768a55d8ecc4260ccffb8d06f242176011ad9bf97b73a4e4479",
+      "merkle_root_internal": "d3242e73538b0768a55d8ecc4260ccffb8d06f242176011ad9bf97b73a4e4479",
+      "verified": true
+    },
+    "ots_btc_catallaxy_com.ots": {
+      "height": 973255,
+      "block_hash": "00000000000000000001a48e3ab2f02c48562cb64a10d317bd6dbfd38c420fef",
+      "block_time_utc": "2026-10-26T16:21:54+00:00",
+      "commitment": "c698297e74eee735e88345527ec2c74201d9a338b0e9761203e08544939b3c9e",
+      "merkle_root_internal": "c698297e74eee735e88345527ec2c74201d9a338b0e9761203e08544939b3c9e",
+      "verified": true
+    }
+  }
+}
